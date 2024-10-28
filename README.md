@@ -1,5 +1,5 @@
 # Overview
-The Single-Node Container Scheduling project is designed to handle user requests through a command line interface (CLI) and Docker containers. It efficiently processes input files, executes specific commands, and generates output files based on the user's operations.
+The Single-Node Container Scheduling project is designed to handle user requests through a command line interface (CLI) and Docker containers. It efficiently processes input files, executes specific commands, and generates output files based on the user's operations. (cloud computing course project)
 
 ## Workflow
 - Receive Request: User sends a request in the defined format.
