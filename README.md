@@ -1,6 +1,12 @@
 # Overview
 The Single-Node Container Scheduling project is designed to handle user requests through a command line interface (CLI) and Docker containers. It efficiently processes input files, executes specific commands, and generates output files based on the user's operations.
 
+## Workflow
+- Receive Request: User sends a request in the defined format.
+- Queue Request: The request is added to a processing queue.
+- Process Request: The system checks for free containers and starts processing the request based on the queued commands.
+- Store Output: Once processing is complete, outputs are saved to the specified directory.
+- Notify User: The user is informed that their results are ready.
 ## Prerequisites
 To run this project, you need to have the following:
 - A machine with sufficient resources (recommended: 4 Ubuntu Server 20.04 virtual machines).
