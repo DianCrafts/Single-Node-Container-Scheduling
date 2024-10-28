@@ -14,11 +14,9 @@ Install Docker:
 
 Follow the official Docker installation guide to install Docker on your machine.
 Clone this repository:
-
-'''
+```
 git clone https://github.com/DianCrafts/VM-manager
-
-'''
+```
 Build Docker images:
 
 Navigate to the project directory and run:
